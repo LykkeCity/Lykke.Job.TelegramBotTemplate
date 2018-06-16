@@ -17,7 +17,7 @@ dotnet new lketgbot -n ${BotName} -o Lykke.Job.${BotName}
 ```
 This will create a solution in the current folder, where `${JobName}` is the job name without Lykke.Job. prefix. 
 Switches:
-* **-n|--name**: JobName
+* **-n|--name**: BotName
 * **-o|--output**: Output directory name
 
 When temlate has changed, to update installed template run again command:
