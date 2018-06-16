@@ -1,0 +1,19 @@
+{
+  //"SecTokenPassword": "TestPwd",
+  //"Db": "DbConnStr",
+  "TelegramBotTemplateJob": {
+    "Db": {
+      "LogsConnString": "UseDevelopmentStorage=true"
+    },
+
+    "BotToken": ""
+  },
+
+  "SlackNotifications": {
+    "AzureQueue": {
+      "ConnectionString": "UseDevelopmentStorage=true",
+      "QueueName": "slack-notifications"
+    },
+    "ThrottlingLimitSeconds": 60
+  }
+}
