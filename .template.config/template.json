@@ -1,0 +1,32 @@
+{
+    "author": "Lykke",
+	"classifications": ["TelegramBotTemplate"],
+	"name": "TelegramBotTemplate",
+	"identity": "TelegramBotTemplate",
+	"shortName": "lketgbot",
+	"preferNameDirectory" : "true",
+	"tags": {
+		"language": "C#"
+	},
+	"sourceName": "TelegramBotTemplate",
+	"symbols":{
+		"serviceName": {
+			"type": "parameter",
+			"defaultValue": "TelegramBotTemplate",
+			"replaces":"TelegramBotTemplate"
+		}
+	},
+	"sources": [
+		{
+		  "modifiers": [
+			
+			{
+			  "exclude": [
+				"README.md",
+				"src/Lykke.Job.TelegramBotTemplate/Readme.md"
+			  ]
+			}
+		  ]
+		}
+	]
+}
